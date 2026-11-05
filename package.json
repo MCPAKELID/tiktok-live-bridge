@@ -1,0 +1,72 @@
+{
+  "name": "tiktok-live-bridge",
+  "version": "3.3.0",
+  "description": "TikTok LIVE WebSocket Bridge for Minecraft with WhatsApp and duplicate event protection - MCPAKEL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "tiktok",
+    "live",
+    "websocket",
+    "minecraft",
+    "bridge",
+    "termux",
+    "realtime",
+    "gift",
+    "like",
+    "follow",
+    "share",
+    "join",
+    "chat",
+    "stream",
+    "live-streaming",
+    "websocket-server",
+    "api",
+    "dashboard",
+    "auto-reconnect",
+    "mcpakel",
+    "alex-pakel"
+  ],
+  "author": {
+    "name": "MCPAKEL",
+    "url": "https://github.com/mcpakel"
+  },
+  "contributors": [
+    {
+      "name": "Alex Pakel",
+      "url": "https://youtube.com/@alexpakel"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcpakel/tiktok-live-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcpakel/tiktok-live-bridge/issues"
+  },
+  "homepage": "https://github.com/mcpakel/tiktok-live-bridge#readme",
+  "funding": {
+    "type": "individual",
+    "url": "https://sociabuzz.com/alexpakell/tribe"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "nanospinner": "^1.1.0",
+    "readline-sync": "^1.4.10",
+    "tiktok-live-connector": "2.4.4",
+    "ws": "^8.14.2",
+    "@whiskeysockets/baileys": "6.7.18",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.4",
+    "jimp": "0.16.13"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
